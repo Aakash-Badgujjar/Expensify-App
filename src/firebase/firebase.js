@@ -10,6 +10,7 @@ const config = {
     appId: process.env.FIREBASE_APP_ID,
     measurementId: process.env.FIREBASE_MEASUREMENT_ID
   };
+  process.env.FIREBASE_CONFIG = JSON.stringify(config);
 
   firebase.initializeApp();
 
