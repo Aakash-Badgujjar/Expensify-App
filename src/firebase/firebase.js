@@ -11,9 +11,10 @@ const config = {
     measurementId: process.env.FIREBASE_MEASUREMENT_ID
   };
 
-  firebase.initializeApp(config);
+  firebase.initializeApp();
 
   const database=firebase.database();
+ 
 
   const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
