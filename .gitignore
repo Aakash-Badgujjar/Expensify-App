@@ -3,4 +3,4 @@ public/dist/
 .env.test
 .env.development
 .idea/
-yarn-error.log
+yarn-error.log'.idea' 
